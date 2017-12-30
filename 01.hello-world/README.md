@@ -11,5 +11,5 @@ Basic Hello world C example
 > `-o hello.html` — Specifies that we want Emscripten to generate an HTML page to run our code in (and a filename to use), as well as the wasm module and the JavaScript "glue" code to compile and instantiate the wasm so it can be used in the web environment.
 
 ## Note
-To see the example running you need a file server by example the python simple server.  
+To see the example running you need a file server by example the python simple server.
 `python -m SimpleHTTPServer 8000`
