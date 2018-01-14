@@ -21,7 +21,7 @@ INFO:root:(Emscripten: Running sanity checks)
 CRITICAL:root:Cannot find /usr/bin/llvm-link, check the paths in ~/.emscripten
 ```
 
-Eedit `~/.emscripten` file with:
+Edit `~/.emscripten` file with:
 
 ```
 EMSCRIPTEN_ROOT = os.path.expanduser(
